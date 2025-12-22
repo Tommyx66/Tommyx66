@@ -1,67 +1,74 @@
 <div align="center">
-  
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=180&section=header&text=Tomás%20Zarriello&fontSize=70&fontColor=ffffff&animation=fadeIn&stroke=007ACC&strokeWidth=2" width="100%"/>
 
-  <h3>✨ Creative Developer | Next.js & React Enthusiast</h3>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=050505,240046,3c096c,7b2cbf,00f2ff&height=260&section=header&text=TOMÁS%20ZARRIELLO&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&descAlignY=62&descAlign=50" width="100%"/>
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=22&pause=1000&color=bd00ff&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Next.js+%26+React+Specialist;Creative+UI%2FUX+Design;Building+Scalable+Web+Apps" alt="Typing SVG" />
+  </a>
+
+  <br/>
+
+  <a href="https://tomas-zarriello-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/PORTFOLIO_V1-050505?style=for-the-badge&logo=vercel&logoColor=bd00ff&border=bd00ff" height="35"/>
+  </a>
   
-  <p>
-    <em>"Crafting digital experiences where logic meets design."</em>
-  </p>
-  
+  <br/><br/>
+
   <a href="https://linkedin.com/in/tomas-zarriello" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=00f2ff"/>
   </a>
   <a href="mailto:tommzx66@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=00f2ff"/>
   </a>
+
 </div>
 
-<hr/>
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
 
 <div align="center"> 
 
-### ⚡ The Tech Arsenal
+### ⚡ TECH STACK
 
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-
+<img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00f2ff" />
+<img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=bd00ff" />
+<img src="https://img.shields.io/badge/Tailwind-000000?style=for-the-badge&logo=tailwind-css&logoColor=00f2ff" />
 <br/>
-
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=bd00ff" />
+<img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white" />
+<img src="https://img.shields.io/badge/Illustrator-000000?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
 
 <br/><br/>
-
-### 🎨 Design & Creativity
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" />
-<img src="https://img.shields.io/badge/UI%2FUX%20Design-ff69b4?style=for-the-badge&logo=dribbble&logoColor=white" />
-
-<br/><br/>
-
-### 📊 GitHub Analytics
 
 <div align="center">
-  <a href="https://github.com/Tommyx66">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tommyx66&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true" height="180" alt="stats graph" />
-  </a>
-  
-  <a href="https://github.com/Tommyx66">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tommyx66&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="languages graph" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=Tommyx66&show_icons=true&hide_border=true&bg_color=00000000&title_color=bd00ff&text_color=ffffff&icon_color=00f2ff&count_private=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tommyx66&theme=radical&hide_border=true&background=0d1117&ring=bd00ff&fire=bd00ff&currStreakLabel=00f2ff" height="160" />
 </div>
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Tommyx66/Tommyx66/blob/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Tommyx66/Tommyx66/blob/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://github.com/Tommyx66/Tommyx66/blob/output/github-contribution-grid-snake.svg">
-</picture>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tommyx66&bg_color=0d1117&color=bd00ff&line=00f2ff&point=ffffff&area=true&hide_border=true" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tommyx66/Tommyx66/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tommyx66/Tommyx66/output/github-contribution-grid-snake.svg">
+    <img alt="snake animation" src="https://raw.githubusercontent.com/Tommyx66/Tommyx66/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Tommyx66&label=PROFILE%20VIEWS&color=bd00ff&style=for-the-badge&logo=github" alt="Visits" />
+</div>
 
 </div>
