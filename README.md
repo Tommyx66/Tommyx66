@@ -3,12 +3,12 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=22&pause=1000&color=bd00ff&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Next.js+%26+React+Specialist;Creative+UI%2FUX+Design;Building+Scalable+Web+Apps" alt="Typing SVG" />
   </a>
-
+  <br/><br/>
   <a href="https://tomas-zarriello-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO_V1-050505?style=for-the-badge&logo=vercel&logoColor=bd00ff&border=bd00ff" height="35"/>
   </a>
   
-  <br/><br/>
+  
 
   <a href="https://linkedin.com/in/tomas-zarriello" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=00f2ff"/>
