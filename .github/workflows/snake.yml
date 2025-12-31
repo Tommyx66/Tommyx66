@@ -1,12 +1,11 @@
 name: Generate Snake
 
 on:
-  # Se ejecuta automáticamente cada 6 horas (4 veces al día)
-  # Esto garantiza que siempre tengas actividad en el día.
+  # Se ejecuta cada 6 horas
   schedule:
-    - cron: "0 */6 * * *" 
+    - cron: "0 */6 * * *"
   
-  # Te permite ejecutarlo manualmente si querés actualizar ya
+  # Permite ejecutarlo manualmente
   workflow_dispatch:
 
 jobs:
@@ -15,19 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      # Usamos la versión 3 que permite colores personalizados
       - uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: Tommyx66
-          # --- CONFIGURACIÓN DE COLORES CYBERPUNK ---
-          # color_snake: El color de la cabeza de la vibora (Cyan Neón)
-          # color_dots: Lista de colores para los cuadrados de actividad, de menos a más.
-          #    0: Fondo (Negro) -> #0d1117
-          #    1: Bajo (Púrpura Oscuro) -> #3c096c
-          #    2: Medio (Púrpura Neón) -> #bd00ff
-          #    3: Alto (Mix Púrpura/Cyan) -> #9d4edd
-          #    4: Muy Alto (Cyan Neón) -> #00f2ff
+          # PALETA CYBERPUNK (Cyan/Púrpura)
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#00f2ff&color_dots=#0d1117,#3c096c,#bd00ff,#9d4edd,#00f2ff
             dist/github-contribution-grid-snake-dark.svg?color_snake=#00f2ff&color_dots=#0d1117,#3c096c,#bd00ff,#9d4edd,#00f2ff
@@ -36,5 +27,9 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "Update snake animation [skip ci]"
+          # ESTO ES LA CLAVE: Firmar con TUS datos para que cuente el commit
+          author: Tommyx66 <tommzx66@gmail.com>
+          committer: Tommyx66 <tommzx66@gmail.com>
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
