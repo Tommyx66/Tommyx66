@@ -1,0 +1,27 @@
+name: Daily System Update
+
+on:
+  schedule:
+    - cron: '0 12 * * *' 
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Update Date in README
+        run: |
+          # Esto busca la línea "Last System Update:" y pone la fecha actual
+          current_date=$(date -u "+%Y-%m-%d %H:%M UTC")
+          sed -i "s/Last System Update: .*/Last System Update: $current_date<\/small>/g" README.md
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Tommyx66-Bot"
+          git config --global user.email "tommzx66@gmail.com"
+          git add README.md
+          git commit -m "System Update: $current_date" || exit 0
+          git push
