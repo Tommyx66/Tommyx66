@@ -33,9 +33,7 @@
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
 
 <br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Tommyx66&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&count_private=true&hide_rank=true" />
-
+<img src="https://github-readme-stats.vercel.app/api?username=Tommyx66&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=b3b3b3&icon_color=ffffff&hide_rank=false&include_all_commits=true&t=1" />
 <br/><br/>
 
 <p align="right">
