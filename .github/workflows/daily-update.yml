@@ -2,8 +2,11 @@ name: Daily System Update
 
 on:
   schedule:
-    - cron: '0 12 * * *' 
-  workflow_dispatch:
+    - cron: '0 12 * * *' # Se ejecuta a las 12:00 UTC
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write # ¡Vital! Da permiso al bot para editar tu repo
 
 jobs:
   update-readme:
@@ -14,14 +17,24 @@ jobs:
 
       - name: Update Date in README
         run: |
-          # Esto busca la línea "Last System Update:" y pone la fecha actual
+          # 1. Obtenemos la fecha
           current_date=$(date -u "+%Y-%m-%d %H:%M UTC")
-          sed -i "s/Last System Update: .*/Last System Update: $current_date<\/small>/g" README.md
+          
+          # 2. Guardamos la fecha en variables de entorno para usarla después
+          echo "DATE_VAL=$current_date" >> $GITHUB_ENV
+
+          # 3. EL FIX: Buscamos "Last Update:" (sin 'System')
+          # Reemplaza desde "Last Update:" hasta el final de la etiqueta </small>
+          sed -i "s/Last Update: .*<\/small>/Last Update: $current_date<\/small>/g" README.md
 
       - name: Commit and Push
         run: |
           git config --global user.name "Tommyx66-Bot"
           git config --global user.email "tommzx66@gmail.com"
+          
           git add README.md
-          git commit -m "System Update: $current_date" || exit 0
+          
+          # Si no hay cambios, no falla. Usamos la variable de entorno aquí.
+          git commit -m "System Update: ${{ env.DATE_VAL }}" || exit 0
+          
           git push
