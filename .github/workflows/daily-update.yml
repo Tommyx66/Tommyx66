@@ -29,8 +29,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name "Tommyx66-Bot"
-          git config --global user.email "tommzx66@gmail.com"
+          git config --global user.name "Tommyx66"
+          git config --global user.email "tomz.ry64@gmail.com"
           
           git add README.md
           
