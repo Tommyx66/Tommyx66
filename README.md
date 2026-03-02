@@ -2,10 +2,10 @@
 
 # TOMÁS ZARRIELLO
 
-### Creative Frontend Developer
+### Creative Frontend & Full Stack Developer
 
 <p align="center" width="60%">
-  <em>"Merging Software Engineering with High-Impact Design. Building digital structures with obsessive focus on performance and aesthetics."</em>
+  <em>"Merging Software Engineering with High-Impact Design. Building digital structures with an obsessive focus on performance, aesthetics, and immersive 3D experiences."</em>
 </p>
 
 <br/>
@@ -24,18 +24,42 @@
 
 <h3>// TECHNICAL ARSENAL</h3>
 
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-
-<br/><br/><br/>
+<p align="center">
+  <strong>CORE & ARCHITECTURE</strong><br/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
 
 <p align="center">
-  <small>System Status: 🟢 Online | Last Update: 2026-03-02 12:58 UTC</small>
+  <strong>IMMERSIVE & CREATIVE (3D)</strong><br/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebGL_Shaders-990000?style=for-the-badge&logo=webgl&logoColor=white" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+</p>
+
+<p align="center">
+  <strong>MOBILE & BACKEND</strong><br/>
+  <img src="https://img.shields.io/badge/React_Native-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+<p align="center">
+  <strong>INFRASTRUCTURE & DESIGN</strong><br/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+</p>
+
+<br/><br/>
+
+<p align="center">
+  <small>System Status: 🟢 Online | Last Update: 2026-03-02</small>
 </p>
 
 </div>
